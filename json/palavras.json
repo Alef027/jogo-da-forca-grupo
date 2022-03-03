@@ -1,0 +1,16 @@
+{
+    " comida" : ["carne", "arroz", "ovo", "farofa", "chocolate"],
+
+    " cidade" : ["ubatuba", "iacri", "bauru", "limeira", "sorocaba"],
+
+    " animais": ["cachorro", "gato", "baleia", "periquito", "papagaio"],
+
+    " marcas": ["nyke", "adidas", "hering", "sansung", "xiaomi"],
+
+    " Linguagens de Programação" : ["javascript", "python", "ruby", "php", "rust"],
+
+    " frutas": ["banana", "morango","laranja","abacaxi", "pera"],
+
+    " cores": ["azul","verde","vermelho","amarelo","preto"]
+}
+
