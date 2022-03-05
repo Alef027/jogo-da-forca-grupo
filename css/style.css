@@ -10,13 +10,12 @@ body{
     width: 70vw;
     height: 41vw;
     margin: 0 auto;
-    margin-top: 40px;
+    margin-top: 30px;
     background-color: beige;
     font-family: 'Ubuntu', sans-serif;
-    display: flex; 
+    display: flex;
     flex-direction: row-reverse;
     justify-content: center;
-    align-items: center;
 }
 
 .div1 {
@@ -24,10 +23,9 @@ body{
     min-width: 600px;
     height: 39vw;
     min-height: 630px;
-   
     display: flex;
     align-items: center;
-    flex-direction: column;
+    flex-direction: column;   
 }
 
 .div2 {
@@ -46,7 +44,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;  
+    flex-direction: column;
     text-align: left;
 }
 
@@ -56,16 +54,11 @@ body{
     align-items: center; 
     border: 5px groove #8b451375;
     background-color: #cd863f25;
-    width: 200px;
-    position: relative;
-    left: 45px;
 }
-
 
 #titulo, #tituloPlacar, #tituloCat, #lblCategoria
 {
-    padding: 10px;
-    
+    padding: 10px; 
 }
 
 #lblCategoria{
@@ -82,13 +75,11 @@ body{
 }
 
  
-#letras {
-   
+#letras { 
     text-align: center;
     color: black;
     letter-spacing: 5px;
     font-size: 40px;
-   
 } 
 
 .teclado{
@@ -100,23 +91,19 @@ body{
     flex-direction: column;
 }
 
-.teclas button {
-    
+.teclas button { 
     width: 40px;
     height: 40px;
     margin: 2px;
     margin-top: 5px;
     cursor: pointer;
     box-shadow: 0px 1px 2px dimgray;
-    border: 2px solid dimgray;
+    border: 1px solid dimgray;
     border-radius: 5px;
     color:grey; 
     background-color: white;
     font-size: 25px;
     font-weight: bold;
-    
-    
-    
 }
 
 .teclas button:disabled{
@@ -135,7 +122,7 @@ body{
     margin-top: 5px;
     cursor: pointer;
     box-shadow: 0px 1px 2px dimgray;
-    border: 2px solid dimgray;
+    border: 1px solid dimgray;
     border-radius: 5px;
     color: grey;
     background-color: greenyellow;
@@ -152,15 +139,15 @@ body{
     }
     
     body{
-        width: 20vw;
-        min-width: 10vw;
+        width: 10vw;
+        min-width:350px; ;
         height: 5vw;
         min-height: 10vw;
         margin: 0 auto;
-        margin-top: 250px;
+        margin-top: 10px;
         background-color: beige;
         font-family: 'Ubuntu', sans-serif;
-        font-size: 11px;
+        font-size: 10px;
         display: flex;
         flex-direction: row-reverse;
         justify-content: center;
@@ -168,7 +155,7 @@ body{
     
     .div1 {
         width: 90px;
-        min-width: 250px;
+        min-width: 260px;
         height: 39vw;
         min-height: 530px;
         display: flex;
@@ -179,7 +166,7 @@ body{
     
     .div2 {
         width: 20vw;
-        min-width: 98px;
+        min-width: 90px;
         height: 28vw;
         min-height: 430px;
         margin-top: 65px;
@@ -195,38 +182,33 @@ body{
         align-items: center;
         flex-direction: column;
         text-align: left; 
-        width: 200px;
-        position: relative;
-        right: 100px;
     }
     
     .placar {
         display: flex;
         flex-direction: column;
         align-items: center; 
-        border: 5px groove #8b451375;
+        border: 3px groove #8b451375;
         background-color: #cd863f25;
-        width: 150px;
-        position: relative;
-        left: -80px; 
-
     }
     
-    #titulo, #tituloPlacar, #tituloCat,#lblCategoria,#catSorteada
+    #titulo, #tituloPlacar, #tituloCat, #lblCategoria
     {
-        padding: 10px; 
+        padding: 1px; 
     }
 
     #lblCategoria{
         font-weight: bold;
     }
+
+  
     
     #imagem{
         background-image: url('../assets/forca.png');
         width: 234px;
         height: 272px;
         background-repeat: no-repeat;
-        margin-top: 5px;
+        margin-top: 25px;
         justify-content: center;
     }
     
@@ -239,7 +221,7 @@ body{
     } 
     
     .teclado{
-        margin-top: 30px;
+        margin-top: 10px;
         width: 300px;
         min-width: 200px;
         display: flex;
@@ -248,9 +230,9 @@ body{
     }
     
     .teclas button { 
-        width: 18px;
-        height: 18px;
-        margin: 1.1px;
+        width: 19px;
+        height: 19px;
+        margin: 2.5px;
         margin-top: 1px;
         cursor: pointer;
         box-shadow: 0px 1px 2px dimgray;
@@ -272,10 +254,10 @@ body{
     }
     
     #btnAcao{
-        width: 70px;
-        height: 32px;
+        width: 65px;
+        height: 35px;
         margin: 1x;
-        margin-top: 5px;
+        margin-top: 4px;
         cursor: pointer;
         box-shadow: 0px 1px 2px dimgray;
         border: 1px solid dimgray;
@@ -283,10 +265,9 @@ body{
         color: grey;
         background-color: greenyellow;
         font-size: 'Ubuntu', sans-serif;
-        font-weight: 100;
+        font-weight: bolder;
     }
 }
-
 
 
 
